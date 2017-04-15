@@ -1,0 +1,1 @@
+<a href="http://members.rugbycanada.ca/page/show/2224867-on-club-page" class="button pricingButton">Register Now</a>

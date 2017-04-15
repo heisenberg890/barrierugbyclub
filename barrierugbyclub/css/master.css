@@ -1,0 +1,1325 @@
+.innerPane{
+    height: 100%;
+width: 100%;
+background: blue;
+opacity: 0.4;
+}
+.innerPane2{
+    height: 100%;
+width: 100%;
+background: #ff5100;
+opacity: 0.4;
+}
+
+.window{
+    height: 500px;
+    background-image: url("/img/windowPic.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+.window2{
+    height: 500px;
+    background-image: url("/img/windowPic2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.contactHeaderTop{
+        width:30px;
+        height:30px;
+    }   
+#orderForm{
+	margin-top:200px;
+}
+.becomeACoachImage{
+    height: 600px;
+}
+
+.scrollingOrderButton{
+    position: fixed;
+    bottom: -20px;
+    background:#0F75BD;
+    color: white;
+    font-family: fantasy;
+    width: 100%;
+    z-index: 2000;
+    left:0;
+    transition:0.5s;
+   }
+.scrollingOrderButton:hover{
+	background:#94D3F3;
+	transition:0.5s;
+}
+.pricing-table {
+    border: solid 1px #DDDDDD;
+    margin-left: 0;
+    margin-bottom: 1.25rem;
+    transition: 0.5s;
+    box-shadow: 10px 10px 5px #888888;
+   }
+   
+.pricing-table:hover{
+	
+	box-shadow: 0px 0px 0px #888888;
+	transition:0.5s;
+	
+}
+
+.pricing-table .description {
+    background-color: #FFFFFF;
+    border-bottom: dotted 1px #DDDDDD;
+    color: #777777;
+    font-size: 0.75rem;
+    font-weight: normal;
+    line-height: 1.4;
+    padding: 0.9375rem;
+    text-align: left;
+    height: 78px;
+}
+.price{
+	font-size:21px !important;
+	    color: black !important;
+    font-weight: bold !important;
+    text-align:left;
+}
+
+.pricing-table .title {
+    background-color: white;
+   }
+
+.apparelShopImages{
+	height:200px;
+}
+.newsArticles{
+	text-decoration: none;
+    color: #0F75BD;
+    font-size:14px;
+}
+.newsArticles:hover{
+	text-decoration: none;
+    color: red;
+    font-size:14px;
+}
+
+.inTheNewsImages{
+	    height: 200px;
+    width: 350px;
+    float:left;
+}
+.sponsorshipImage{
+	    height: 150px;
+    width: 200px;
+}
+.apparelRow1{
+	margin-bottom:200px;
+}
+.rukProgramDocImages{
+	height:100px;
+}
+.rukProgramDocContents{
+	padding-top:20px;
+}
+
+
+.mugShotsContent{
+	font-family:"Trebuchet MS";
+	/*color:#0F76BD;*/
+	color:red;
+	font-size:12px;
+	padding-top:10px;
+    margin-left: 30px;
+    
+   /*center everything is disabled
+    padding-left: 34%;
+    text-align: left;
+*/
+}
+
+
+.DocumentsIcons{
+width: 100px;
+}
+.teamPageDocumentsContent {
+    font-family: "Trebuchet MS";
+    color: #929090;
+    font-size: 12px;
+}
+.centerDocumentsTeamsPage{
+    	text-align: center;
+}
+.documentsImageTeamsPage{
+	    width: 200px;
+}
+.paddingDocsColumns{
+	margin-left: 20px;
+}
+.docsCenterMe{
+	    text-align: center;
+}
+.documentsRow{
+	    margin-top: 100px;
+}
+.documentsPageContent{
+margin-top: 5%;
+    font-family: "Trebuchet MS";
+    color:#0F76BD;
+        text-align: center;
+    font-size: 10px;
+}
+
+.documentsPageContent:hover{
+margin-top: 5%;
+    font-family: "Trebuchet MS";
+    color: #EC1C23;
+    font-size: 10px;
+}
+
+.docsDownloadIcon{
+	width: 60px;
+    border-radius: 50% !important;
+    background: black;
+}
+
+.picoverlay {
+    height: 94%;
+    position: absolute;
+    width: 100%;
+    background: rgba(139, 212, 247, 0);
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+}
+
+.picoverlay:hover {
+    height: 94%;
+    position: absolute;
+    width: 100%;
+    background: rgba(139, 212, 247, 0.47);
+    top: 0%;
+    left: 0%;
+    transition: 0.5s;
+}
+
+body{
+	/*background-image: url("/brfc/img/rugbyPitch.png");*/
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+
+
+#viewport .smoke {
+position: absolute;
+width: 3000px;
+height: 300px;
+background:url('/img/fogs/fog.png') no-repeat;
+bottom: 0px;
+margin-left:800px
+}
+
+
+
+.splashOverlayWelcome{
+	position: absolute;
+top: 43%;
+font-family: papyrus, 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+font-size: 65px;
+font-weight: bold;
+color: white;
+display: block;
+margin: 0 auto;
+text-align: center;
+width: 100%;
+
+    
+}
+
+
+/*
+.splashOverlay{
+	    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left:-60px;
+    margin-top:150px;
+    background: #0f75bd;
+    color: white;
+    font-family:Papyrus;
+        height: 50px;
+}
+
+.splashOverlay:hover{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     margin-left:-60px;
+    margin-top:150px;   
+     background:#94D3F3;
+    color: white;
+    font-family:Papyrus;
+        height: 50px;
+}
+.splashOverlay:focus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+         margin-left:-60px;
+    margin-top:150px; 
+     background:#94D3F3;
+    color: white;
+    font-family:Papyrus;
+        height: 50px;
+}
+
+*/
+
+.splashOverlay{
+    position: absolute;
+background: #0f75bd;
+color: white;
+font-family: Papyrus;
+height: 60px;
+display: block;
+width: 100%;
+bottom: -20px;
+    border-bottom: 1px solid white;
+}
+
+.splashOverlay:hover{
+    background:#94D3F3;
+}
+
+.splashOverlay:focus{
+    background:#94D3F3;
+}
+
+
+
+
+
+
+.mainPageSplash{
+	/*height: 928px;*/
+    height: 100vh;
+    background-image: url("/img/rugbyPitch.png");
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+a.parent-link.js-generated {
+    color: red !important;
+    font-size: 20px !important;
+}
+
+
+
+a.parent-link.js-generated:before {
+	content: " - " !important;
+}
+a.parent-link.js-generated:after {
+	
+	content: " - " !important;
+}
+
+
+
+.contactHeaderIcons{
+	    height: 39px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.mapIconInvert{
+	    -webkit-filter: invert(100%);
+}
+#container{
+	max-width:356px;
+}
+
+.newsAnnouncements{
+	    top: 288px;
+}
+.apparelAnnouncements{
+	top:135px;
+}
+
+.apparelAnnouncements1 {
+    top: 108px;
+}
+
+.newsAnnouncementsMini{
+       top: 73%;
+    bottom: -8%;
+   }
+
+.mensWomensContent{
+	    padding-top: 50px;
+    border-bottom: 1px solid #0F75BD;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.mainSliderMainPage{
+	    max-height: 372px;
+   		 width: 100%;
+}
+.miniApparelOrbitSlider{
+	max-height:180px;
+	min-height:180px;
+}
+.sponsorHoverLink{
+	color:red;
+}
+.sponsorHoverLink:hover{
+	color:gray;
+}
+.eventsImages{
+	    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+}
+.squadImage{
+	    height: 260px;
+	    margin-right: -50px;
+}
+.squadImageDiv{
+	   /* width: 200px;*/
+    height: 50%;
+}
+
+.sponsorsRow{
+	margin-top:100px;
+}
+
+.accordionRowClass{
+	    margin-top: 100px;
+}
+.middleAccordions{
+	border-top: 1px solid #D8D8D8;
+    border-bottom: 1px solid #D8D8D8;
+}
+.accordionFaqContent{
+	font-size: 12px;
+    color: #0F75BD;
+}
+
+.accordion .accordion-navigation.active > a, .accordion dd.active > a {
+    background: white !important;
+    color: #FF2500;
+    transition:500ms;
+}
+
+.accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
+    background: white;
+    color:#FF2500;
+    transition:500ms;
+}
+
+.accordion .accordion-navigation > a, .accordion dd > a {
+    background: #FFFFFF;
+    color: #0F75BD;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-size: 13px;
+    padding: 1rem;
+    font-weight:bold;
+    transition:500ms;
+}
+
+.registerHeader{
+	font-size: 165%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: -50px;
+    margin-top: 100px;
+}
+.borderShadowMap{
+	    box-shadow: 10px 10px 5px #888888;
+}
+.drivingDirections{
+	text-decoration:none;
+	color:red;
+}
+.drivingDirections:hover{
+	text-decoration:none;
+	color:#0077BA;
+}
+.contactFormRow{
+	margin-top: 100px;
+   
+}
+.contactFormRow1{
+   
+}
+
+.contactSendButton{
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    background: #0F75BD;
+    border-bottom-right-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}
+.contactSendButton1{
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    background: #0F75BD;
+}
+
+.contactSendButton1:hover{
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    background: #94D3F3;
+    
+}
+
+.contactSendButton:hover{
+    height: 10px;
+    padding-top: 10px;
+    padding-bottom: 27px;
+    background: #94D3F3;
+        border-bottom-right-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}
+
+.contactSendForm{
+	border-bottom-left-radius: 50px !important;
+    border-top-left-radius: 50px !important;
+}
+.fancyText{
+	    padding-top: 120px;
+	    
+
+}
+.fancyText:hover{
+	    padding-top: 120px;
+	        transform: scale(1.0);
+
+}
+.fancyRow{
+	 margin-top: 75px;
+	 border-bottom: 1px solid #0077BA;
+    border-top: 1px solid #0077BA;
+    padding-bottom: 100px;
+}
+.mottoClass{
+    text-align: center;
+        font-size: 90%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-top: 120px;
+}
+.eventsHeader{
+	    text-align: center;
+    font-size: 165%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: 50px;
+   /* margin-top: 50px;
+    border-top: 1px solid #0F75BD;
+    padding-top: 50px;*/
+	
+}
+
+
+.eventsHeader2{
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    /* margin-bottom: 50px; */
+    margin-top: 50px;
+    padding-top: 50px;
+	
+}
+.eventContent{
+	font-family:"Trebuchet MS";
+	color:#0F76BD;
+	font-size:12px;
+	padding-top:10px;
+	 padding-right: 30px;
+    padding-left: 30px;
+
+}
+
+
+.splashImage:hover{
+	transform: scale(1.0) !important;
+}
+.splashImage{
+	    height: 122px;
+}
+img{
+	    transition: all 0.5s ease;
+}
+img:hover{
+	transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.eventsCarousel{
+	
+    text-align: center;
+    /* background: aliceblue; */
+    border-radius: 50px;
+    padding-top: 20px;
+    /* border-top: 5px solid #0f75bd; */
+    border-bottom: 5px solid #0f75bd;
+}
+.eventCalendarIcon{
+	height:50px;
+	margin-top:15px;
+}
+.pricingColumn{
+	    border: 1px solid #eaeaea!important;
+	    height: 145px;
+	    padding-top: 2%;
+	    background: #f6f6f6;
+	    color: #3d4942;
+	    text-align: center;
+	    margin-top:100px;
+}
+.pricingDollar{
+	font-size: 300%;
+    font-weight: bold;
+    color: white;
+    font-family: 'monospace';
+    margin-bottom: 0px;
+}
+.pricingSeason {
+    font-weight: bold;
+    color: red;
+}
+.pricingBlueColumn{
+	background:#0f75bd;
+}
+.pricingButton{
+	background:#0f75bd;
+	    margin-top: 8%;
+}
+.pricingButton:hover{
+	background: #94D3F3;;
+	    margin-top: 8%;
+}
+.pricingHeader {
+    color: #0f75bd;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 150%;
+}
+.pricingHeader1 {
+    color: #0f75bd;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 150%;
+    margin-bottom:0px;
+}
+.pricingContent {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.bottomBarContent{
+	color: #688094 !important;
+    font-size: 13px;
+    font-family: 'Trebuchet MS';
+}
+.bottomFooterBar{
+	background:black;
+	padding-top:10px;
+	text-align:center;
+}
+.footerIcons{
+	opacity: 1;
+    transition: 1s;
+}
+.footerIcons:hover{
+	opacity: 0.4;
+    transition: 1s;
+}
+.fullScreenFooter{
+	background:#12212f;
+	padding-bottom:15px;
+	padding-top:2%;
+	margin-top:100px;
+}
+.footerHeaders{
+	color:white !important;
+	font-size:26px;
+	font-family:papyrus;
+	padding-bottom: 13px;
+    text-align: center;
+}
+.centerFooter{
+	text-align:center !important;
+}
+.footerHeader{
+	color:white !important;
+	font-size:26px;
+	font-family:papyrus;
+	padding-bottom: 13px;
+    text-align:left;
+}
+.footerContent{
+	color:#688094 !important;
+	font-size:13px;
+	font-family:'Trebuchet MS';
+}
+.socialMediaColumn{
+	padding-left: 28px;
+}
+
+/*Hex Stuff */
+
+
+.hexagon {
+  position: relative;
+  width: 48px; 
+  height: 27.71px;
+  margin: 13.86px 0;
+  background-image: url(https://facebookbrand.com/wp-content/themes/fb-branding/prj-fb-branding/assets/images/fb-art.png);
+  background-size: auto 55.4256px;
+  background-position: center;
+}
+.hexagon2 {
+  position: relative;
+  width: 48px; 
+  height: 27.71px;
+  margin: 13.86px 0;
+  background-image: url(http://startupfocus.saphana.com/wp-content/uploads/2015/12/twitter-icon.png);
+  background-size: auto 55.4256px;
+  background-position: center;
+}
+.hexagon3 {
+  position: relative;
+  width: 48px; 
+  height: 27.71px;
+  margin: 13.86px 0;
+  background-image: url(http://s3.amazonaws.com/os_extranet_images/193754_original.jpg);
+  background-size: auto 55.4256px;
+  background-position: center;
+}
+
+.hexTop,
+.hexBottom {
+  position: absolute;
+  z-index: 1;
+  width: 33.94px;
+  height: 33.94px;
+  overflow: hidden;
+  -webkit-transform: scaleY(0.5774) rotate(-45deg);
+  -ms-transform: scaleY(0.5774) rotate(-45deg);
+  transform: scaleY(0.5774) rotate(-45deg);
+  background: inherit;
+  left: 7.03px;
+}
+
+/*counter transform the bg image on the caps*/
+.hexTop:after,
+.hexBottom:after {
+  content: "";
+  position: absolute;
+  width: 48.0000px;
+  height: 27.71281292110204px;
+  -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-13.8564px);
+  -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-13.8564px);
+  transform:          rotate(45deg) scaleY(1.7321) translateY(-13.8564px);
+  -webkit-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  transform-origin: 0 0;
+  background: inherit;
+}
+
+.hexTop {
+  top: -16.9706px;
+}
+
+.hexTop:after {
+  background-position: center top;
+}
+
+.hexBottom {
+  bottom: -16.9706px;
+}
+
+.hexBottom:after {
+  background-position: center bottom;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  top: 0.0000px;
+  left: 0;
+  width: 48.0000px;
+  height: 27.7128px;
+  z-index: 2;
+  background: inherit;
+}
+
+.hex1{
+	margin-left: 48px;
+}
+.hex2{
+	margin-left: 108px;
+    margin-top: -42px;
+}
+.hex3{
+	    margin-left: 79px;
+    margin-top: 27px;
+}
+/*Hex Stuff */
+
+.mainCaption{
+	/*margin-bottom: 40px;*/
+	    margin-bottom: 13%;
+    background-color: rgba(137, 213, 245, 0.59) !important;
+    text-align:center;
+}
+
+.secondaryCaption{
+	    margin-bottom: 36px;
+
+    background-color: rgba(137, 213, 245, 0.59) !important;
+    text-align:center;
+    font-family: papyrus;
+    font-size: 19px !important;
+}
+
+
+.secondaryCaption1{
+    margin-bottom: 12px;
+background-color: rgba(212, 15, 15, 0.6) !important;
+text-align: center;
+font-family: papyrus;
+font-size: 19px !important;
+margin-top: -10px;
+   }
+   
+   
+.secondaryCaptionMini{
+	    margin-bottom: 36px;
+
+    background-color: rgba(137, 213, 245, 0.59) !important;
+    text-align:center;
+    font-family: papyrus;
+    font-size: 19px !important;
+}
+    
+.pad{
+	padding-left: 5px !important;
+    padding-top: 0px !important;
+
+}
+
+.mobileMainPageTopSlider{
+	width: 100%;
+    max-height: 360px;
+    padding-bottom: 10px;
+}
+
+.topRightPhoto{
+	margin-bottom:12px !important;
+	height:180.5px !important;
+	width:100%;
+}
+.bottomRightPhoto{
+	height:180.5px !important;
+	max-height:180px !important;
+	
+}
+.galleryMainPage:hover{
+	opacity: 0.6;
+}
+.top-bar{
+	
+	background: white;
+    border-top: gray 1px solid;
+    border-bottom: gray 1px solid;
+    margin-bottom: 14px;
+    box-shadow: gray 5px 5px 5px 5px;
+    background:#94D3F3;;
+}
+.upperBar{
+	background:#94D3F3;;
+	height:35px;
+	padding-left:17%;
+	padding-right:17%;
+	border-bottom: 1px solid #555555;
+    box-shadow: 11px -18px 20px 22px;
+}
+.navBarLink{
+	border-bottom:solid white 1px;
+}
+.navBarButtons{
+    background: #94D3F3 !important;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    color:white !important;
+}
+.navBarButtons:hover{
+    background: #94D3F3 !important;
+    border-left: white 1px solid;
+    border-right: white 1px solid;
+    /*color: #2373DC !important;*/
+    color:#DC2323 !important;
+	}
+.menuHome{
+	color:black !important;
+}
+.logoSpot{
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.orbit-slides-container{
+	max-height: 373px;
+}
+.top-bar-section li:not(.has-form) a:not(.button){
+	line-height: 2.7rem;
+    background: #94D3F3;;
+    color: #EBEBEB;
+    /* font-weight: bold; */
+    font-family: papyrus;
+    font-size: 18px;
+
+}
+.top-bar-section li:not(.has-form) a:not(.button):hover{
+	background:#94D3F3;;
+	color:white;
+}
+
+
+.contactInfo{
+	padding-top:3%;
+	
+}
+.contactFont{
+	color:#717273;
+	text-decoration:none !important;
+	float:right;
+}
+.contactFontFooter{
+	color:#717273;
+	text-decoration:none !important;
+	text-align:center;
+}
+.pageHeaderRow{
+	border-bottom: 1px #D9D9D9 solid;
+    margin-bottom: 2%;
+    background: #80D6F2;
+    max-width: 100%;
+    padding-left: 10%;
+    height: 122px;
+    color: white;
+    font-size: 50px;
+    font-family: papyrus;
+    font-weight: bolder;
+}
+.pageHeaderColumn{
+	    font-size: 120%;
+    padding-top: 2%;
+   margin-left: 14%;
+	
+}
+	
+.bottomRightPadding{
+	padding-left:5px;
+}
+.bottomLeftPadding{
+	padding-right:5px;
+}
+
+.contactPageHeader{
+	font-family:Rokkitt;
+	font-size:130%;
+}
+.contactPageHeaders{
+	    font-size: 130%;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-top: 20px;
+}
+.contactPageContents{
+	font-family:"Trebuchet MS";
+	color:#929090;
+	font-size:85%;
+}
+.star{
+	color:#BD0F0F;
+	font-size:18px;
+	font-weight:bold;
+}
+
+.contactPageContent{
+	font-family:"Trebuchet MS";
+	color:#929090;
+	font-size:12px;
+}
+
+.teamPageContent{
+    margin-top: 5%;
+    font-family:"Trebuchet MS";
+	color:#929090;
+	font-size:12px;
+}
+.locatePageContent{
+	font-family:"Trebuchet MS";
+	color:#0F76BD;
+	font-size:12px;
+	padding-top:10px;
+}
+
+
+.coachPageHeader{
+	font-family:Rokkitt;
+	font-size:130%;
+	padding-top:20px;
+}
+
+.coachPageContent{
+	font-family:"Trebuchet MS";
+	color:#929090;
+	font-size:12px;
+	text-align:center;
+}
+.coachPageImages{
+	    height: 200px;
+	    border-radius: 50%;
+	    border: 5px solid #94D3F3;;
+	    padding: 10px;
+	    text-align: center;
+}
+.coachesColumns{
+	text-align:center;
+}
+.coachRows{
+	    border-bottom: 1px solid #D9D9D9;
+   		padding-bottom: 50px;
+}
+.teamImageSliders{
+	width:100%;
+	max-height:400px;
+}
+.teamSliders{
+	max-height:none;
+}
+
+@media only screen and (max-width: 900px) { 
+.mottoClass {
+    text-align: center;
+    font-size: 100%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-top: 120px;
+}
+}
+
+@media only screen and (max-width: 775px) { 
+	
+	
+
+	
+	
+	.registerHeader {
+    font-size: 165%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: 0px;
+    margin-top: 200px;
+}
+	
+	.mottoClass {
+    text-align: center;
+    font-size: 68%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-top: 120px;
+}
+	
+	.pageHeaderRow{
+	border-bottom: 1px #D9D9D9 solid;
+    margin-bottom: 2%;
+    background: #80D6F2;
+    max-width: 100%;
+    padding-left: 0%;
+    height: 122px;
+    color: white;
+    font-size: 50px;
+    font-family: papyrus;
+    font-weight: bolder;
+}
+.pageHeaderColumn {
+    font-size: 70%;
+    padding-top: 8%;
+    margin-left: 0%;
+}
+	.top-bar-section li:not(.has-form) a:not(.button){
+			line-height: 2.7rem;
+		    background: #94D3F3;;
+		    color:white;
+		    /* font-weight: bold; */
+		    font-family: papyrus;
+    		font-size: 13.5px;
+						}
+	.contactInfo{
+	font-size:12px;
+	text-align:center;
+	padding-bottom:10px;
+	
+	}
+	.contactFont{
+	color:#717273;
+	text-decoration:none !important;
+	text-align:center;
+	float:none;
+}
+
+.coachPageHeader{
+	font-family:Rokkitt;
+	font-size:130%;
+	padding-top:20px;
+	text-align:center;
+}
+.footerIconPadding{
+	    padding-left: 21%;
+}
+.footerHeaders{
+	    padding-left: 31%;
+	    text-align:left;
+}
+.footerHeader{
+	    padding-left: 31%;
+	    text-align:left;
+}
+.socialMediaColumn{
+	padding-left:0px !important;
+}
+.contactFontFooter{
+	text-align:left;
+	font-size:13px;
+}
+.footerContent{
+	text-align:center;
+	font-size:10px;
+}
+.bottomBarContent{
+    font-size: 9px;
+}
+
+.pricingColumn{
+	    border: 1px solid #eaeaea!important;
+	    background: #f6f6f6;
+	    color: #3d4942;
+	    text-align: center;
+	    height:auto;
+	    margin-top:0px;
+}
+.pricingBlueColumn{
+	background:#0f75bd;
+}
+.pricingSpacing{
+	margin-top:100px;
+}
+.smallBottomAccordion{
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.registerHeader {
+    font-size: 165%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.socialMediaFeeds{
+	margin-top:50px;
+}
+
+}
+
+@media only screen and (min-width: 1020px) { 
+	.backgroundLogo{
+	       background-image: url("/img/logo.png");
+    background-attachment: scroll;
+    background-size: 158px;
+    background-position: 53.4% 54%;
+    background-repeat: no-repeat;
+	}
+}
+@media only screen and (min-width: 640px) and (max-width: 775px) {
+	
+
+.pricingColumn {
+    border: 1px solid #eaeaea!important;
+    height: 145px;
+    padding-top: 2%;
+    background: #f6f6f6;
+    color: #3d4942;
+    text-align: center;
+    margin-top: 100px;
+}
+.pricingBlueColumn{
+	background:#0f75bd;
+}
+
+.pricingHeader1 {
+    color: #0f75bd;
+    font-weight: bold;
+    font-family: serif;
+    font-size: 120%;
+    margin-bottom: 0px;
+}
+.pricingDollar {
+    font-size: 250%;
+    font-weight: bold;
+    color: white;
+    font-family: 'monospace';
+    margin-bottom: 0px;
+}
+
+.registerHeader {
+    font-size: 165%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.newsAnnouncementsMini {
+    top: 80%;
+    bottom: -8%;
+}
+}
+
+
+@media only screen and (min-width: 640px) { 
+	
+	nav.top-bar {
+				text-align:center;
+				}
+				section.top-bar-section {
+				display: inline-block;
+				}
+				
+				
+
+}
+
+@media only screen and (max-width: 640px) { 
+	
+	.paddingDocsColumns{
+	margin-left: 0px !important;
+	margin-top:50px;
+}
+	
+	
+	.eventsHeader2 {
+    text-align: center;
+    font-size: 95%;
+    font-weight: bold;
+    color: #0F75BD;
+    font-family: papyrus;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+	.toprightPhoto{
+			    max-height: 180.5px;
+    		min-height: 141px;
+				}
+.squadImage{
+	    height: 260px;
+	   /* margin-right: -160px;*/
+	  margin-left: -50px;
+}
+.navBarButtons{
+	background: #94D3F3;
+    border: white 1px solid;
+    background: #94D3F3 !important;
+    border-bottom: white 1px solid;
+    border-top:none;
+    color: white !important;
+	}
+.navBarButtons:hover{
+	background: #94D3F3;
+    border: white 1px solid;
+    background: #94D3F3 !important;
+    border-bottom: white 1px solid;
+    border-top:none;
+    color: white !important;
+	}
+	.parent-link{
+		border-bottom: white 1px solid;
+		border-top: white 1px solid;
+	}
+	
+	.galleryMainPage{
+		/*height: 100%;
+    max-height: 180.5px;*/
+	}
+}
+
+
+
+#test{
+
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
